@@ -3,7 +3,7 @@ import numpy as np
 import statistics as st
 
 
-d=pd.read_excel(r'C:\Users\STUDENT\Downloads\iris.xls')
+d=pd.read_excel(r'Iris.xls')
 print(d)
 c=d['sepal length']
 value=np.zeros(len(c))
